@@ -24,8 +24,7 @@ class Acc
     strcpy(this->name,name);
     cout<<"Enter contact number of the person\n";
     gets(conno);
-    strcpy(this->conno,conno);
-    cout<<"Please note account number & password\n";
+    strcpy(this->conno,conno);   
     cout<<"Enter account number\n";
     cin>>accno;
     this->accno = accno;
@@ -38,6 +37,7 @@ class Acc
     cout<<"Enter passowrd for your account\n";
     cin>>pass;
     this->pass=pass;
+    cout<<"Please note the account number & password\n";
     }
 
     void OUT()
