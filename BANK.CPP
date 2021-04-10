@@ -65,7 +65,7 @@ class Acc
        cout<<"1. Want to change password?\n";
        cout<<"2. Want to withdwran some money?\n";
        cout<<"3. Want to in more money in your account?\n";
-       cout<<"4. want to see all enteries?\n";
+       cout<<"4. Want to see all enteries?\n";
        cin>>choi;
        switch(choi)
        {
