@@ -61,8 +61,8 @@ class Acc
       if(this->accno==k&&this->pass==j)
       {
        cout<<"Entered password is right \n";
-       cout<<"What you want to do with your account\n";
-       cout<<"1. Want to change password\n";
+       cout<<"What you want to do with your account?\n";
+       cout<<"1. Want to change password?\n";
        cout<<"2. Want to withdwran some money\n";
        cout<<"3. Want to in more money in your account\n";
        cout<<"4. want to see all enteries\n";
